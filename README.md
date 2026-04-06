@@ -1,18 +1,39 @@
 # mikistack.github.io
 
-  Personal portfolio site for Mikiyas Dereje — Full-Stack Developer based in Ethiopia.
+Personal portfolio site for **Mikiyas Dereje** — Full-Stack Developer based in Ethiopia.
 
-  **Live:** https://mikistack.github.io
+🔗 **Live:** [mikistack.github.io](https://mikistack.github.io)
 
-  ## Tech
+## Tech Stack
 
-  Built with Vue 3 · Vite · Tailwind CSS · Deployed on GitHub Pages.
+- **Framework:** React 19
+- **Build Tool:** Vite 8
+- **Styling:** Tailwind CSS 4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
 
-  ## About
+## Features
 
-  This site showcases my work, skills, and projects. The source code lives in the `portfolio-vite/` directory of my development workspace. The `main` branch of this repo contains the built production output.
+- Responsive design with mobile navigation
+- Scroll-triggered animations
+- Interactive terminal mockup in hero section
+- SEO-optimized with Open Graph, Twitter Cards, and JSON-LD structured data
+- Smooth scroll navigation with glassmorphism navbar
 
-  ## Featured Project
+## Development
 
-  [FlowBit Inventory Platform](https://github.com/mikistack/flowbit-inventory) — A production-grade multi-warehouse inventory system built with Vue 3, Node.js, PostgreSQL, Redis, and Docker.
-  
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## License
+
+MIT © Mikiyas Dereje
