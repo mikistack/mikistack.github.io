@@ -307,14 +307,14 @@ function App() {
             </div>
           </AnimatedSection>
 
-          <div className="grid md:grid-cols-2 gap-8 text-left">
+          <div className="max-w-2xl mx-auto">
             {/* ── FlowBit Inventory ── */}
             <AnimatedSection delay={0.1}>
-              <div className="group relative bg-slate-900 border border-white/5 rounded-3xl overflow-hidden hover:border-brand-500/50 transition-all duration-500 shadow-2xl h-full flex flex-col">
+              <div className="group relative bg-slate-900 border border-white/5 rounded-3xl overflow-hidden hover:border-brand-500/50 transition-all duration-500 shadow-2xl">
                 <div className="aspect-video overflow-hidden">
                   <img src="/assets/flowbit-dashboard.png" alt="FlowBit Inventory Dashboard" className="w-full h-full object-cover group-hover:scale-105 transition duration-700" />
                 </div>
-                <div className="p-8 space-y-4 flex-1 flex flex-col">
+                <div className="p-8 space-y-4">
                   <div className="flex flex-wrap gap-2">
                     {['Vue 3', 'Node.js', 'PostgreSQL', 'Docker', 'Redis'].map(t => (
                       <span key={t} className="px-3 py-1 bg-slate-800 rounded-full text-[10px] font-bold text-slate-400 uppercase tracking-wider">{t}</span>
@@ -331,7 +331,7 @@ function App() {
                     <li className="flex items-start gap-2"><ChevronRight size={12} className="mt-0.5 text-brand-500 shrink-0" /> JWT auth, RBAC (Admin/Manager/Staff), BullMQ jobs</li>
                     <li className="flex items-start gap-2"><ChevronRight size={12} className="mt-0.5 text-brand-500 shrink-0" /> Dockerized deployment with Redis caching</li>
                   </ul>
-                  <div className="pt-4 mt-auto flex items-center justify-between">
+                  <div className="pt-4 flex items-center justify-between">
                     <span className="text-sm font-bold text-slate-500 uppercase">2026</span>
                     <div className="flex gap-3">
                       <a href="https://github.com/mikistack/flowbit-inventory" target="_blank" rel="noopener noreferrer" className="p-2 bg-slate-800 rounded-full hover:bg-brand-500 transition text-slate-300 hover:text-white" title="Source code">
@@ -345,8 +345,6 @@ function App() {
                 </div>
               </div>
             </AnimatedSection>
-
-
           </div>
         </div>
       </section>

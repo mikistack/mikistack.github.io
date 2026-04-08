@@ -1,39 +1,28 @@
-# mikistack.github.io
+# Mikiyas Dereje — Personal Portfolio
 
-Personal portfolio site for **Mikiyas Dereje** — Full-Stack Developer based in Ethiopia.
-
-🔗 **Live:** [mikistack.github.io](https://mikistack.github.io)
+Personal portfolio website for Mikiyas Dereje, showcasing skills, experience, and full-stack projects.
 
 ## Tech Stack
+- **Framework**: React 19 + Vite
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
-- **Framework:** React 19
-- **Build Tool:** Vite 8
-- **Styling:** Tailwind CSS 4
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start local development server
+npm run dev
+
+# Build for production
+npm run build
+```
 
 ## Features
-
-- Responsive design with mobile navigation
-- Scroll-triggered animations
-- Interactive terminal mockup in hero section
-- SEO-optimized with Open Graph, Twitter Cards, and JSON-LD structured data
-- Smooth scroll navigation with glassmorphism navbar
-
-## Development
-
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-npm run preview
-```
-
-## License
-
-MIT © Mikiyas Dereje
+- **Responsive Layout**: Designed to look great on desktop and mobile devices.
+- **Dark Theme**: Modern styled components with a deep slate background.
+- **Scroll Animations**: Smooth transitions on scroll via Framer Motion.
+- **SEO Ready**: Configured with proper meta tags, Open Graph data, and structured JSON-LD.
