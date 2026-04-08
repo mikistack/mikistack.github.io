@@ -123,7 +123,7 @@ function App() {
       <nav className="fixed top-0 w-full z-50 bg-slate-900/80 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-            <div className="w-8 h-8 bg-brand-500 rounded-lg flex items-center justify-center font-bold text-white text-sm">M</div>
+            <img src="/assets/logo.png" alt="Logo" className="w-8 h-8 rounded-lg object-cover" />
             <span className="font-display text-xl font-bold tracking-tight text-white">mikistack</span>
           </div>
 
